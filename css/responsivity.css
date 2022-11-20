@@ -1,0 +1,77 @@
+@media (min-width: 1024px) {
+    .historia,
+    .cultura,
+    .geral,
+    .politica {
+        width: 30rem;
+        height: auto;
+        margin: 0;
+    }
+
+    .historia {
+        border-radius: 5px 0 0 0;
+        border-top: 1px solid var(--back2-gray);
+        border-left: 1px solid var(--back2-gray);
+    }
+
+    .cultura {
+        border-radius: 0 5px 0 0;
+    }
+
+    .geral {
+        border-bottom: 1px solid var(--back2-gray);
+        border-left: 1px solid var(--back2-gray);
+    }
+
+    section {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-inline: 1.5rem;
+        justify-content: center;
+    }
+
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .turismo {
+        width: 60rem;
+        margin-inline: 0;
+        border-left: 1px solid var(--back2-gray);
+        border-bottom: 1px solid var(--back2-gray);
+        border-right: 1px solid var(--back2-gray);
+    }
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 2rem;
+        justify-content: center;
+        margin-top: 2rem;
+    }
+}
+
+@media (min-width: 1500px) {
+    .cultura {
+        border-radius: 0;
+    }
+
+    .geral {
+        border-radius: 0 5px 0 0;
+        border-top: 1px solid var(--back2-gray);
+        border-right: 1px solid var(--back2-gray);
+    }
+
+    .politica {
+        max-height: 62.8rem;
+        border-radius: 0 0 0 5px;
+    }
+
+    .turismo {
+        border-radius: 0 0 5px 0;
+    }
+}
