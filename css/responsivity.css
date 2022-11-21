@@ -93,4 +93,8 @@
     .politica {
         border-radius: 0 5px 0 0;
     }
+
+    ul {
+        gap: 1rem;
+    }
 }
