@@ -75,3 +75,22 @@
         border-radius: 0 0 5px 0;
     }
 }
+
+@media (min-width: 1968px) {
+    .turismo {
+        min-width: 120rem;
+        border-radius: 0 0 5px 5px;
+    }
+
+    .historia {
+        border-bottom: 1px solid var(--back2-gray);
+    }
+
+    .geral {
+        border-radius: 0;
+    }
+
+    .politica {
+        border-radius: 0 5px 0 0;
+    }
+}
